@@ -1,0 +1,273 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+@media(max-width: 1280px)
+{
+    #services i
+    {
+        float: right;
+    }
+
+    @media(max-width: 1080px)
+    {
+        header,
+        .overlay
+        {
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        #home .logos
+        {
+            display: none;
+        }
+        #home
+        {
+            margin-bottom: 20vh;
+            margin-top: 10vh;
+        }
+        .home-con
+        {
+            margin-left: 20vw;
+        }
+        .state
+        {
+            padding-right: 5vw;
+        }
+        .works 
+        {
+            margin-top: -40vh;
+    
+        }
+
+        @media(max-width: 800px)
+        {
+            #home
+            {
+                margin-top: 18vh;
+            }
+            .state
+            {
+                padding-right: 3vw;
+            }
+            @media(max-width: 768px)
+            {
+                .container
+                {
+                    max-width: 90vw;
+                }
+                .menu-toggle
+                {
+                    -webkit-transform: translateX(18%);
+                        -ms-transform: translateX(18%);
+                            transform: translateX(18%);
+                }
+                #services i
+                {
+                    font-size: 3vw;
+                }
+                .state
+                {
+                    padding-right: 4vw;
+                }
+                .state h4 
+                {
+                    font-size: 2vw;
+                }
+                #works
+                {
+                    padding-bottom: 300%;
+                }
+                .works 
+                {
+                    margin-top: -50vh;
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: flex;
+                    -webkit-box-orient: vertical;
+                    -webkit-box-direction: normal;
+                        -ms-flex-direction: column;
+                            flex-direction: column;
+                    -webkit-box-pack: center;
+                        -ms-flex-pack: center;
+                            justify-content: center;
+                    -webkit-box-align: center;
+                        -ms-flex-align: center;
+                            align-items: center;
+                    margin-left: 5vw;
+                }
+                .work
+                {
+                    margin-bottom: 1rem;
+                }
+                .work:nth-child(2),
+                .work:nth-child(6)
+                {
+                    width: 60%;
+                }
+                .feedback p
+                {
+                    font-size: 1rem;
+                }
+                #contact-us
+                {
+                    height: 220vh;
+                }
+                #contact-us .container
+                {
+                    margin-left : 5%;
+                }
+                #contact-us .contact-form
+                {
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: flex;
+                    -webkit-box-orient: vertical;
+                    -webkit-box-direction: normal;
+                        -ms-flex-direction: column;
+                            flex-direction: column;
+                }
+                .contact-info
+                {
+                    background: black;
+                    opacity: 0.8;
+                    margin-top: 1rem;
+                }
+                .find-us h3,
+                .find-us p
+                {
+                    text-align: center;
+                    margin:auto;
+                }
+                @media(max-width: 500px)
+                {
+                    .nav-heading
+                    {
+                        display: none;
+                    }
+                    .home-body h3
+                    {
+                        font-size: 10vw;
+                    }
+                    .section-header
+                    {
+                        font-size: 8vw;
+                    }
+                    .section-upper-header
+                    {
+                        font-size: 6vw;
+                    }
+                    .width-800
+                    {
+                        max-width: 90vw;
+                    }
+                    .home-con
+                    {
+                        margin: 0;
+                        margin-left: 5vw;
+                        text-align: center;
+
+                    }
+                    .home-body .flex
+                    {
+                        margin-left: 10vw;
+                    }
+                    span 
+                    {
+                        font-size: 10vw;
+                    }
+                    #about span
+                    {
+                        font-size: 12vw;
+                    }
+                    #about p,
+                    #about h4
+                    {
+                        font-size: 4vw;
+                    }
+
+                    #services .section-header
+                    {
+                        font-size: 8vw;
+                        font-weight: bolder;
+                    }
+                    #services i 
+                    {
+                        display: none;
+                    }
+                    .service-info
+                    {
+                        margin-left: -5vw;
+                    }
+                    .service
+                    {
+                        text-align: center;
+                        width: 90vw;
+                    }
+                    #services .grey-paragraph
+                    {
+                        font-size: 4vw;
+                    }
+
+                    #contact-us
+                    {
+                        height: 135vh;
+                    }
+                    #works
+                    {
+                        padding-bottom: 290%;
+                    }
+                    #works .upper-work
+                    {
+                        height: 60vh;
+                    }
+                    .work:first-child
+                    {
+                        margin-top: 20vh;
+                    }
+                    .menu
+                    {
+                        width: 40vw;
+                    }
+                    .menu-toggle
+                    {
+                        -webkit-transform: translateX(21%);
+                            -ms-transform: translateX(21%);
+                                transform: translateX(21%);
+                    }
+
+                    .find-us p
+                    {
+                        font-size: 3vw;
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+@media(max-width: 750px) and (orientation:landscape) {
+
+    #home
+    {
+        margin: 0;
+    }
+    #works
+    {
+        padding-bottom: 320%;
+    }
+    .upper-work .container
+    {
+        margin-top: -5vw;
+    }
+    #contact-us
+    {
+        height: 280vh;
+    }
+
+}
