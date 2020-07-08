@@ -1,3 +1,21 @@
+// Smooth Scrolling
+
+$('#nav a').on('click', function(event) {
+    if(this.hash !== ''){
+
+        event.preventDefault();
+        const hash = this.hash;
+
+        $('html, body').animate(
+            {
+                scrollTop: $(hash).offset().top
+            },
+            2000
+
+        );
+    }
+});
+
 //preloader
 const preloader = document.querySelector('.spinner');
 const nav = document.querySelector('#nav');
@@ -6,6 +24,7 @@ const nav = document.querySelector('#nav');
 window.addEventListener('load', () => {
     preloader.remove();
     nav.style.display = 'block';
+    document.querySelector('*').style.overflowY = 'auto';
 
 });
 

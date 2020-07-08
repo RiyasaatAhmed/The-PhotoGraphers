@@ -20,9 +20,9 @@
     letter-spacing: 1px;
     color: #fff;
     overflow-x: hidden;
+    overflow-y: hidden;
     list-style: none;
 }
-
 
 img
 {
@@ -126,7 +126,6 @@ section span
     height: 100vh;
     text-align: center;
     font-size: 10px;
-    overflow: hidden;
     background: var(--secondary-color);
 
 
